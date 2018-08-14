@@ -86,5 +86,5 @@ def send():
   return json.dumps(analysis)
 
 if __name__ == '__main__':
-    app.run(host="18.222.174.170", debug=True)
+    app.run(host="0.0.0.0", debug=True)
 
