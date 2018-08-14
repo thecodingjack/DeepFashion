@@ -1,5 +1,7 @@
 **/*.pyc
 tf_files
+!retrained_graph.pb
+!retrained_labels.txt
 .idea/
 **/*~
 gradle*
@@ -8,3 +10,4 @@ local.properties
 android.iml
 .gradle/
 android/assets/*
+.pem
